@@ -5,7 +5,6 @@ import { Injectable } from '@angular/core';
 }) 
 export class CalculatorService { 
   constructor() {} 
-  
   /** 
    * Realiza la operación aritmética especificada 
    * @param num1 Primer número 
@@ -31,31 +30,15 @@ export class CalculatorService {
         return 'Operación no válida'; 
     } 
   } 
-  
-  /** 
-   * Suma dos números 
-   */ 
   private suma(a: number, b: number): number { 
     return a + b; 
   } 
-  
-  /** 
-   * Resta dos números 
-   */ 
   private resta(a: number, b: number): number { 
     return a - b; 
   } 
-  
-  /** 
-   * Multiplica dos números 
-   */ 
   private multiplicacion(a: number, b: number): number { 
     return a * b; 
   } 
-  
-  /** 
-   * Divide dos números 
-   */ 
   private division(a: number, b: number): number | string { 
     if (b === 0) { 
       return 'Error: División por cero'; 
