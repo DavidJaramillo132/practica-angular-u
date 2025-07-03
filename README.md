@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/13ec23fa-df5a-47e3-9f79-ee45b2a1d77a)
+
 # PracticaAngular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
